@@ -20,7 +20,7 @@ public class ArrayDequeEgs {
         while (strItr.hasNext()) {
             System.out.println(strItr.next());
         }
-        Iterator<String> strItr2 = strs.dxescendingIterator();
+        Iterator<String> strItr2 = strs.descendingIterator();
         strs.remove("hello1");  //  @Note :: removals are immediately reflected in snapshot iterator
         while (strItr2.hasNext()) {
             System.out.println(strItr2.next());
